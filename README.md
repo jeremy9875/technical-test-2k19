@@ -59,3 +59,10 @@ Bon courage !
 
 [![Bon chance](https://img.youtube.com/vi/7OGpsoJ1kwk/0.jpg)](https://www.youtube.com/watch?v=7OGpsoJ1kwk)
 
+Pour lancer le projet :
+
+- pour le front react-native et utiliser npm run web
+
+- pour lancer le back faire npm start
+
+Pour la partie audio les infos vienne en entrée du fichier exemple.wav
