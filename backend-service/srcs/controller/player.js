@@ -27,8 +27,8 @@ var functions = {
       },
     async dropdb() {
         players.collection.drop();
-        songchunk.collection.drop();
-        songsfile.collection.drop();
+        /*songchunk.collection.drop();
+        songsfile.collection.drop();*/
         return 0;
     },
     async gettext(turn) {

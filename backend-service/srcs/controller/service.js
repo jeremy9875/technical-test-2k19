@@ -13,9 +13,10 @@ var functions = { // Appel au fonction venant du controller
 
     while (turn > 0) {
       if (tmp == 0 && turn != 0) {
+        player.addText(text, turn, "text");
         await ibmApi.texttospeech(text, lang, turn); // ne crée pas de fichier
-      --turn;
-      tmp = 2;
+        --turn;
+        tmp = 2;
       } else if (tmp == 1) {
         var text_tmp = await player.Findtext(turn);
         console.log(text_tmp.Text);

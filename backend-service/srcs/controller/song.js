@@ -36,9 +36,7 @@ var functions = {
           return null;
       },
       async getSongname(turn) {
-        var filename = './' + turn + '.wav';
-        //this.getSong(filename);
-      
+        var filename = './' + turn + '.wav';      
         return await filename;
       },
 }

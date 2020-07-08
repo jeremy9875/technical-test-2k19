@@ -32,9 +32,9 @@ async speechtotext(turn) {
           console.log(err);
         }));
 },
-texttospeech(texts, lang, turn) {
+texttospeech(text, lang, turn) {
     const synthesizeParams = {
-        text: texts,
+        text: text,
         accept: 'audio/wav',
         voice: lang,
       };
